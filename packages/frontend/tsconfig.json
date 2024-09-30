@@ -1,0 +1,66 @@
+{
+	"compilerOptions": {
+		"jsx": "react-jsx",
+		"baseUrl": ".",
+		"module": "ES2022",
+		"declaration": true,
+		"removeComments": true,
+		"emitDecoratorMetadata": true,
+		"experimentalDecorators": true,
+		"allowSyntheticDefaultImports": true,
+		"target": "ES2022",
+		"sourceMap": true,
+		"outDir": "./dist",
+		"incremental": true,
+		"useDefineForClassFields": true,
+		"skipLibCheck": true,
+		"forceConsistentCasingInFileNames": true,
+		"esModuleInterop": true,
+		"moduleResolution": "node",
+		"composite": true,
+		"types": [
+			"vite/client"
+		],
+		"paths": {
+			"~assets/*": [
+				"src/assets/*"
+			],
+			"~modules/*": [
+				"src/modules/*"
+			],
+			"~router/*": [
+				"src/router/*"
+			],
+			"~shared/*": [
+				"src/shared/*"
+			],
+			"~store/*": [
+				"src/store/*"
+			],
+			"~typings/*": [
+				"src/typings/*"
+			],
+			"~yup-schema/*": [
+				"src/yup-schema/*"
+			],
+			"~/*": [
+				"src/*"
+			],
+			"~form-init-value/*": [
+				"src/shared/form-init-value/*"
+			],
+			"~form-init-values/*": [
+				"src/shared/form-init-values/*"
+			],
+			"~filters/*": [
+				"src/yup-schema/filters/*"
+			],
+			"~helpers/*": [
+				"src/shared/helpers/*"
+			],
+			"~constants/*": [
+				"src/shared/constants/*"
+			]
+		}
+	}
+}
